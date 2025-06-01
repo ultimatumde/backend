@@ -1,0 +1,3 @@
+[submodule "rmlui-jsc"]
+	path = rmlui-jsc
+	url = https://github.com/ultimatumde/rmlui-jsc
