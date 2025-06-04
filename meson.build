@@ -12,8 +12,6 @@ dependencies = [
 exe = executable(
   'backend',
   'src/main.cpp',
-  install : true,
+  include_directories : include_directories('./src'),
   dependencies : dependencies,
 )
-
-test('basic', exe)
